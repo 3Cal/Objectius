@@ -1,0 +1,9 @@
+# vim
+*.swp
+
+# LaTeX
+*.aux
+*.dvi
+*.log
+*.pdf
+*.toc

@@ -1,0 +1,75 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[catalan]{babel}
+
+\title{Propostes pels conceptes de la calculadora}
+\author{Sistach Reinoso, Arnau}
+
+% llibreries necessaries
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\section{Exemples}
+\subsection{Deducció}
+Defineixo 'de forma que ho entengui'
+\begin{itemize}
+\item Grup
+	\begin{itemize}
+	\item Conjunt $G \neq \emptyset$
+	\item Operació interna binària $\forall x, y, z \in G$
+		\begin{enumerate}
+		\item[assosiativa] $(xy)z = x(yz) $
+		\item[el. neutre] $\exists e \in G: ex = xe = x$
+		\item[simètric] $\forall x \in G, \exists x' \in G: xx' = x'x = e$
+		\end{enumerate}
+	\item grup $G$ commutatiu i/o abelià
+		\begin{itemize}
+		\item $\forall x, y \in G\quad xy = yx$
+		\end{itemize}
+	\end{itemize}
+\end{itemize}
+
+Llavors jo li dic
+\begin{itemize}
+\item $e_1, e_2 \in G$ grup
+\item $e_1, e_2$ element neutre de $G$
+\item $e_1 \overset{?}{=} e_2$
+	\begin{itemize}
+	\item Llegenda
+	\item $\overset{e_i}{=}$: $e_ix = xe_i = x$
+		\begin{itemize}
+		\item	$
+			e_1 \overset{e_2}{=}
+			e_1e_2 \overset{e_1}{=}
+			e_2
+			$
+		\item $e_1 \overset{\checkmark}{=} e_2$
+		\end{itemize}
+	\end{itemize}
+\item $x, x_1', x_2' \in G$ grup
+\item $x_1', x_2'$ element simètric de $x$
+\item $x_1' \overset{?}{=} x_2'$
+	\begin{itemize}
+	\item Llegenda
+	\item $\overset{e}{=}$: $ex = xe = x$
+	\item $\overset{\text{sim}}{=}$: $xx_i' = x_ix = e$
+	\item $\overset{\text{ass}}{=}$: $\forall x,y,z \in G \quad (xy)z = x(yz)$
+		\begin{itemize}
+		\item	$
+			x_1' \overset{e}{=}
+			x_1'e \overset{\text{sim}}{=}
+			x_1'(xx_2') \overset{\text{ass}}{=}
+			(x_1'x)x_2' \overset{\text{sim}}{=}
+			ex_2' \overset{e}{=}
+			x_2'
+			$
+		\item $x_1' \overset{\checkmark}{=} x_2'$
+		\end{itemize}
+	\end{itemize}
+\end{itemize}
+
+\end{document}
