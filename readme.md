@@ -14,3 +14,8 @@ Anirem enunciant diferents objectius que tenim
 
 - Conceptes
 	- Poder operar de forma agradable
+	- Coneixement del cody gray binari
+
+- Informatics
+	- Cert poder de compilatge
+	- like trobar amb el minim de passos una solucio
